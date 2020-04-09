@@ -106,7 +106,7 @@ def parse_resource(resource, token):
         # get urls
         data = {
             "enVersion": 1,
-            "clientType": 2,
+            "clientType": 1,
             "mob-token": token,
             "signature": signature,
             "videoId": content_id
